@@ -1,0 +1,181 @@
+18 Mar 2023 - 17:16:41.451 [main] INFO  c.S.CustomerTest.CustomerServiceTest - Starting CustomerServiceTest using Java 17.0.4.1 with PID 8932 (started by Acer in D:\java\javaprograms\Jewllery-shop-system)
+18 Mar 2023 - 17:16:41.507 [main] INFO  c.S.CustomerTest.CustomerServiceTest - No active profile set, falling back to 1 default profile: "default"
+18 Mar 2023 - 17:16:43.463 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18 Mar 2023 - 17:16:43.757 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 281 ms. Found 3 JPA repository interfaces.
+18 Mar 2023 - 17:16:46.111 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+18 Mar 2023 - 17:16:46.348 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.7.Final
+18 Mar 2023 - 17:16:46.680 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+18 Mar 2023 - 17:16:47.376 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3ff26c9
+18 Mar 2023 - 17:16:47.380 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+18 Mar 2023 - 17:16:47.408 [main] INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+18 Mar 2023 - 17:16:47.412 [main] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+18 Mar 2023 - 17:16:48.968 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18 Mar 2023 - 17:16:48.979 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+18 Mar 2023 - 17:16:50.733 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18 Mar 2023 - 17:16:51.773 [main] INFO  c.S.CustomerTest.CustomerServiceTest - Started CustomerServiceTest in 11.004 seconds (process running for 14.145)
+18 Mar 2023 - 17:16:51.976 [main] INFO  com.Shop.entity.Customer - Fetching all customers atSat Mar 18 17:16:51 IST 2023
+18 Mar 2023 - 17:16:52.184 [main] INFO  com.Shop.entity.Customer - Updating customer details of customer_id0atSat Mar 18 17:16:52 IST 2023
+18 Mar 2023 - 17:16:52.193 [main] INFO  com.Shop.entity.Customer - Creating a new customer Customer(customer_id=0, customerName=Rutuja., address=pune, contactNo=9874555555, emailId=Rutuja@gmail.com, sm=null, product=null)added atSat Mar 18 17:16:52 IST 2023
+18 Mar 2023 - 17:16:52.307 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+18 Mar 2023 - 17:16:52.314 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+18 Mar 2023 - 17:16:52.355 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+18 Mar 2023 - 17:18:58.685 [main] INFO  c.S.CustomerTest.CustomerServiceTest - Starting CustomerServiceTest using Java 17.0.4.1 with PID 12384 (started by Acer in D:\java\javaprograms\Jewllery-shop-system)
+18 Mar 2023 - 17:18:58.701 [main] INFO  c.S.CustomerTest.CustomerServiceTest - No active profile set, falling back to 1 default profile: "default"
+18 Mar 2023 - 17:19:00.282 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18 Mar 2023 - 17:19:00.377 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 79 ms. Found 3 JPA repository interfaces.
+18 Mar 2023 - 17:19:02.319 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+18 Mar 2023 - 17:19:02.454 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.7.Final
+18 Mar 2023 - 17:19:02.825 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+18 Mar 2023 - 17:19:03.477 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@69f3e556
+18 Mar 2023 - 17:19:03.481 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+18 Mar 2023 - 17:19:03.510 [main] INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+18 Mar 2023 - 17:19:03.513 [main] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+18 Mar 2023 - 17:19:05.120 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18 Mar 2023 - 17:19:05.134 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+18 Mar 2023 - 17:19:06.519 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18 Mar 2023 - 17:19:07.448 [main] INFO  c.S.CustomerTest.CustomerServiceTest - Started CustomerServiceTest in 9.435 seconds (process running for 11.431)
+18 Mar 2023 - 17:19:07.584 [main] INFO  com.Shop.entity.Customer - Fetching all customers atSat Mar 18 17:19:07 IST 2023
+18 Mar 2023 - 17:19:07.787 [main] INFO  com.Shop.entity.Customer - Updating customer details of customer_id0atSat Mar 18 17:19:07 IST 2023
+18 Mar 2023 - 17:19:07.812 [main] INFO  com.Shop.entity.Customer - Creating a new customer Customer(customer_id=0, customerName=Rutuja., address=pune, contactNo=9874555555, emailId=Rutuja@gmail.com, sm=null, product=null)added atSat Mar 18 17:19:07 IST 2023
+18 Mar 2023 - 17:19:07.888 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+18 Mar 2023 - 17:19:07.891 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+18 Mar 2023 - 17:19:07.921 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+18 Mar 2023 - 17:19:31.463 [main] INFO  c.S.CustomerTest.CustomerServiceTest - Starting CustomerServiceTest using Java 17.0.4.1 with PID 8316 (started by Acer in D:\java\javaprograms\Jewllery-shop-system)
+18 Mar 2023 - 17:19:31.479 [main] INFO  c.S.CustomerTest.CustomerServiceTest - No active profile set, falling back to 1 default profile: "default"
+18 Mar 2023 - 17:19:32.795 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18 Mar 2023 - 17:19:32.915 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 106 ms. Found 3 JPA repository interfaces.
+18 Mar 2023 - 17:19:35.051 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+18 Mar 2023 - 17:19:35.201 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.7.Final
+18 Mar 2023 - 17:19:35.517 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+18 Mar 2023 - 17:19:36.222 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@65015a49
+18 Mar 2023 - 17:19:36.226 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+18 Mar 2023 - 17:19:36.257 [main] INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+18 Mar 2023 - 17:19:36.274 [main] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+18 Mar 2023 - 17:19:37.906 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18 Mar 2023 - 17:19:37.920 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+18 Mar 2023 - 17:19:39.318 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18 Mar 2023 - 17:19:40.273 [main] INFO  c.S.CustomerTest.CustomerServiceTest - Started CustomerServiceTest in 9.429 seconds (process running for 11.301)
+18 Mar 2023 - 17:19:40.390 [main] INFO  com.Shop.entity.Customer - Fetching all customers atSat Mar 18 17:19:40 IST 2023
+18 Mar 2023 - 17:19:40.488 [main] INFO  com.Shop.entity.Customer - Updating customer details of customer_id0atSat Mar 18 17:19:40 IST 2023
+18 Mar 2023 - 17:19:40.505 [main] INFO  com.Shop.entity.Customer - Creating a new customer Customer(customer_id=0, customerName=Rutuja., address=pune, contactNo=9874555555, emailId=Rutuja@gmail.com, sm=null, product=null)added atSat Mar 18 17:19:40 IST 2023
+18 Mar 2023 - 17:19:40.509 [main] INFO  com.Shop.entity.Customer - Creating a new customer Customer(customer_id=0, customerName=Rutuja., address=pune, contactNo=9874555555, emailId=Rutuja@gmail.com, sm=null, product=null)added atSat Mar 18 17:19:40 IST 2023
+18 Mar 2023 - 17:19:40.554 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+18 Mar 2023 - 17:19:40.562 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+18 Mar 2023 - 17:19:40.586 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+18 Mar 2023 - 17:20:40.653 [main] INFO  c.S.CustomerTest.CustomerServiceTest - Starting CustomerServiceTest using Java 17.0.4.1 with PID 12320 (started by Acer in D:\java\javaprograms\Jewllery-shop-system)
+18 Mar 2023 - 17:20:40.703 [main] INFO  c.S.CustomerTest.CustomerServiceTest - No active profile set, falling back to 1 default profile: "default"
+18 Mar 2023 - 17:20:42.059 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18 Mar 2023 - 17:20:42.160 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 85 ms. Found 3 JPA repository interfaces.
+18 Mar 2023 - 17:20:44.142 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+18 Mar 2023 - 17:20:44.328 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.7.Final
+18 Mar 2023 - 17:20:44.728 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+18 Mar 2023 - 17:20:45.440 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@83e635f
+18 Mar 2023 - 17:20:45.443 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+18 Mar 2023 - 17:20:45.478 [main] INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+18 Mar 2023 - 17:20:45.483 [main] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+18 Mar 2023 - 17:20:47.232 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18 Mar 2023 - 17:20:47.244 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+18 Mar 2023 - 17:20:48.727 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18 Mar 2023 - 17:20:49.677 [main] INFO  c.S.CustomerTest.CustomerServiceTest - Started CustomerServiceTest in 9.64 seconds (process running for 11.602)
+18 Mar 2023 - 17:20:49.798 [main] INFO  com.Shop.entity.Customer - Fetching all customers atSat Mar 18 17:20:49 IST 2023
+18 Mar 2023 - 17:20:49.930 [main] INFO  com.Shop.entity.Customer - Updating customer details of customer_id0atSat Mar 18 17:20:49 IST 2023
+18 Mar 2023 - 17:20:49.940 [main] INFO  com.Shop.entity.Customer - Creating a new customer Customer(customer_id=0, customerName=Rutuja., address=pune, contactNo=9874555555, emailId=Rutuja@gmail.com, sm=null, product=null)added atSat Mar 18 17:20:49 IST 2023
+18 Mar 2023 - 17:20:50.017 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+18 Mar 2023 - 17:20:50.020 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+18 Mar 2023 - 17:20:50.072 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+18 Mar 2023 - 17:23:37.443 [main] INFO  c.S.CustomerTest.CustomerServiceTest - Starting CustomerServiceTest using Java 17.0.4.1 with PID 11508 (started by Acer in D:\java\javaprograms\Jewllery-shop-system)
+18 Mar 2023 - 17:23:37.461 [main] INFO  c.S.CustomerTest.CustomerServiceTest - No active profile set, falling back to 1 default profile: "default"
+18 Mar 2023 - 17:23:38.852 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18 Mar 2023 - 17:23:39.034 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 169 ms. Found 3 JPA repository interfaces.
+18 Mar 2023 - 17:23:41.102 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+18 Mar 2023 - 17:23:41.323 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.7.Final
+18 Mar 2023 - 17:23:41.598 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+18 Mar 2023 - 17:23:42.242 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3b56947a
+18 Mar 2023 - 17:23:42.245 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+18 Mar 2023 - 17:23:42.273 [main] INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+18 Mar 2023 - 17:23:42.276 [main] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+18 Mar 2023 - 17:23:43.940 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18 Mar 2023 - 17:23:43.950 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+18 Mar 2023 - 17:23:45.438 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18 Mar 2023 - 17:23:46.312 [main] INFO  c.S.CustomerTest.CustomerServiceTest - Started CustomerServiceTest in 9.544 seconds (process running for 11.879)
+18 Mar 2023 - 17:23:46.468 [main] INFO  com.Shop.entity.Customer - Fetching all customers atSat Mar 18 17:23:46 IST 2023
+18 Mar 2023 - 17:23:46.674 [main] INFO  com.Shop.entity.Customer - Updating customer details of customer_id0atSat Mar 18 17:23:46 IST 2023
+18 Mar 2023 - 17:23:46.689 [main] INFO  com.Shop.entity.Customer - Creating a new customer Customer(customer_id=0, customerName=Rutuja., address=pune, contactNo=9874555555, emailId=Rutuja@gmail.com, sm=null, product=null)added atSat Mar 18 17:23:46 IST 2023
+18 Mar 2023 - 17:23:46.759 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+18 Mar 2023 - 17:23:46.766 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+18 Mar 2023 - 17:23:46.794 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+18 Mar 2023 - 17:24:59.720 [main] INFO  c.S.CustomerTest.CustomerServiceTest - Starting CustomerServiceTest using Java 17.0.4.1 with PID 4124 (started by Acer in D:\java\javaprograms\Jewllery-shop-system)
+18 Mar 2023 - 17:24:59.747 [main] INFO  c.S.CustomerTest.CustomerServiceTest - No active profile set, falling back to 1 default profile: "default"
+18 Mar 2023 - 17:25:01.309 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18 Mar 2023 - 17:25:01.417 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 92 ms. Found 3 JPA repository interfaces.
+18 Mar 2023 - 17:25:03.316 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+18 Mar 2023 - 17:25:03.445 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.7.Final
+18 Mar 2023 - 17:25:03.843 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+18 Mar 2023 - 17:25:04.451 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@51869ad6
+18 Mar 2023 - 17:25:04.455 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+18 Mar 2023 - 17:25:04.513 [main] INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+18 Mar 2023 - 17:25:04.515 [main] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+18 Mar 2023 - 17:25:06.113 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18 Mar 2023 - 17:25:06.127 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+18 Mar 2023 - 17:25:07.875 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18 Mar 2023 - 17:25:08.688 [main] INFO  c.S.CustomerTest.CustomerServiceTest - Started CustomerServiceTest in 9.801 seconds (process running for 11.73)
+18 Mar 2023 - 17:25:08.995 [main] INFO  com.Shop.entity.Customer - Fetching all customers atSat Mar 18 17:25:08 IST 2023
+18 Mar 2023 - 17:25:09.085 [main] INFO  com.Shop.entity.Customer - Updating customer details of customer_id0atSat Mar 18 17:25:09 IST 2023
+18 Mar 2023 - 17:25:09.098 [main] INFO  com.Shop.entity.Customer - Creating a new customer Customer(customer_id=0, customerName=Rutuja., address=pune, contactNo=9874555555, emailId=Rutuja@gmail.com, sm=null, product=null)added atSat Mar 18 17:25:09 IST 2023
+18 Mar 2023 - 17:25:09.130 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+18 Mar 2023 - 17:25:09.140 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+18 Mar 2023 - 17:25:09.166 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+18 Mar 2023 - 17:27:01.746 [main] INFO  c.S.CustomerTest.CustomerServiceTest - Starting CustomerServiceTest using Java 17.0.4.1 with PID 6484 (started by Acer in D:\java\javaprograms\Jewllery-shop-system)
+18 Mar 2023 - 17:27:01.769 [main] INFO  c.S.CustomerTest.CustomerServiceTest - No active profile set, falling back to 1 default profile: "default"
+18 Mar 2023 - 17:27:03.261 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18 Mar 2023 - 17:27:03.399 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 125 ms. Found 3 JPA repository interfaces.
+18 Mar 2023 - 17:27:05.356 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+18 Mar 2023 - 17:27:05.435 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.7.Final
+18 Mar 2023 - 17:27:05.922 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+18 Mar 2023 - 17:27:06.556 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@51869ad6
+18 Mar 2023 - 17:27:06.559 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+18 Mar 2023 - 17:27:06.589 [main] INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+18 Mar 2023 - 17:27:06.593 [main] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+18 Mar 2023 - 17:27:08.333 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18 Mar 2023 - 17:27:08.344 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+18 Mar 2023 - 17:27:09.817 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18 Mar 2023 - 17:27:10.657 [main] INFO  c.S.CustomerTest.CustomerServiceTest - Started CustomerServiceTest in 9.66 seconds (process running for 11.602)
+18 Mar 2023 - 17:27:11.080 [main] INFO  com.Shop.entity.Customer - Fetching all customers atSat Mar 18 17:27:11 IST 2023
+18 Mar 2023 - 17:27:11.235 [main] INFO  com.Shop.entity.Customer - Updating customer details of customer_id0atSat Mar 18 17:27:11 IST 2023
+18 Mar 2023 - 17:27:11.243 [main] INFO  com.Shop.entity.Customer - Creating a new customer Customer(customer_id=0, customerName=Rutuja., address=pune, contactNo=9874555555, emailId=Rutuja@gmail.com, sm=null, product=null)added atSat Mar 18 17:27:11 IST 2023
+18 Mar 2023 - 17:27:11.292 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+18 Mar 2023 - 17:27:11.295 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+18 Mar 2023 - 17:27:11.317 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+18 Mar 2023 - 17:44:28.038 [restartedMain] INFO  c.Shop.JewlleryShopSystemApplication - Starting JewlleryShopSystemApplication using Java 17.0.4.1 with PID 9148 (D:\java\javaprograms\Jewllery-shop-system\target\classes started by Acer in D:\java\javaprograms\Jewllery-shop-system)
+18 Mar 2023 - 17:44:28.110 [restartedMain] INFO  c.Shop.JewlleryShopSystemApplication - No active profile set, falling back to 1 default profile: "default"
+18 Mar 2023 - 17:44:28.176 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+18 Mar 2023 - 17:44:28.176 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+18 Mar 2023 - 17:44:31.467 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18 Mar 2023 - 17:44:31.912 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 358 ms. Found 3 JPA repository interfaces.
+18 Mar 2023 - 17:44:33.782 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+18 Mar 2023 - 17:44:33.876 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+18 Mar 2023 - 17:44:33.877 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+18 Mar 2023 - 17:44:34.094 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+18 Mar 2023 - 17:44:34.095 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5918 ms
+18 Mar 2023 - 17:44:34.910 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+18 Mar 2023 - 17:44:35.032 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.7.Final
+18 Mar 2023 - 17:44:36.132 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+18 Mar 2023 - 17:44:37.431 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6a3b7da5
+18 Mar 2023 - 17:44:37.434 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+18 Mar 2023 - 17:44:37.462 [restartedMain] INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+18 Mar 2023 - 17:44:37.464 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+18 Mar 2023 - 17:44:40.022 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18 Mar 2023 - 17:44:40.035 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+18 Mar 2023 - 17:44:41.984 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18 Mar 2023 - 17:44:43.150 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+18 Mar 2023 - 17:44:43.237 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+18 Mar 2023 - 17:44:43.253 [restartedMain] INFO  c.Shop.JewlleryShopSystemApplication - Started JewlleryShopSystemApplication in 15.948 seconds (process running for 17.786)
+18 Mar 2023 - 17:54:23.919 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18 Mar 2023 - 17:54:23.920 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+18 Mar 2023 - 17:54:23.923 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+18 Mar 2023 - 18:14:04.187 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+18 Mar 2023 - 18:14:04.208 [Thread-5] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+18 Mar 2023 - 18:14:04.210 [Thread-5] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+18 Mar 2023 - 18:14:04.231 [Thread-5] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+18 Mar 2023 - 18:14:04.254 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+18 Mar 2023 - 18:14:04.286 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

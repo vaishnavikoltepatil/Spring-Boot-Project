@@ -1,0 +1,31 @@
+18 Mar 2023 - 18:14:04.590 [restartedMain] INFO  c.Shop.JewlleryShopSystemApplication - Starting JewlleryShopSystemApplication using Java 17.0.4.1 with PID 9148 (D:\java\javaprograms\Jewllery-shop-system\target\classes started by Acer in D:\java\javaprograms\Jewllery-shop-system)
+18 Mar 2023 - 18:14:04.597 [restartedMain] INFO  c.Shop.JewlleryShopSystemApplication - No active profile set, falling back to 1 default profile: "default"
+18 Mar 2023 - 18:14:05.002 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18 Mar 2023 - 18:14:05.039 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 36 ms. Found 3 JPA repository interfaces.
+18 Mar 2023 - 18:14:05.203 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+18 Mar 2023 - 18:14:05.204 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+18 Mar 2023 - 18:14:05.204 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+18 Mar 2023 - 18:14:05.266 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+18 Mar 2023 - 18:14:05.267 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 667 ms
+18 Mar 2023 - 18:14:05.734 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+18 Mar 2023 - 18:14:05.746 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+18 Mar 2023 - 18:14:05.782 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1eff68a0
+18 Mar 2023 - 18:14:05.783 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+18 Mar 2023 - 18:14:05.783 [restartedMain] INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+18 Mar 2023 - 18:14:05.784 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+18 Mar 2023 - 18:14:05.989 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18 Mar 2023 - 18:14:05.990 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+18 Mar 2023 - 18:14:06.388 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18 Mar 2023 - 18:14:06.636 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+18 Mar 2023 - 18:14:06.667 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+18 Mar 2023 - 18:14:06.677 [restartedMain] INFO  c.Shop.JewlleryShopSystemApplication - Started JewlleryShopSystemApplication in 2.205 seconds (process running for 1781.21)
+18 Mar 2023 - 18:14:06.682 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+18 Mar 2023 - 18:14:11.141 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18 Mar 2023 - 18:14:11.142 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+18 Mar 2023 - 18:14:11.143 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+18 Mar 2023 - 18:17:59.917 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+18 Mar 2023 - 18:17:59.963 [Thread-7] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+18 Mar 2023 - 18:17:59.963 [Thread-7] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+18 Mar 2023 - 18:17:59.970 [Thread-7] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+18 Mar 2023 - 18:17:59.972 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+18 Mar 2023 - 18:17:59.984 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
